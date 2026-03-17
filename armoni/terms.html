@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Armoni | Hizmet Koşulları</title>
+  <meta name="description" content="Armoni Discord botu için resmi hizmet koşulları.">
+  <style>
+    :root {
+      --bg: #08111f;
+      --panel: rgba(13, 23, 39, 0.9);
+      --line: rgba(120, 160, 220, 0.16);
+      --text: #ebf3ff;
+      --muted: #9fb3d1;
+      --accent: #8be6ff;
+      --shadow: 0 24px 60px rgba(0, 0, 0, 0.34);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", "Trebuchet MS", ui-sans-serif, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top, rgba(57, 173, 255, 0.14), transparent 24%),
+        linear-gradient(180deg, #0b1424 0%, #08111f 100%);
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    .shell {
+      width: min(920px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 42px 0 64px;
+    }
+
+    .topbar {
+      margin-bottom: 18px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .topbar a {
+      text-decoration: none;
+    }
+
+    .panel {
+      padding: 32px;
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      background: var(--panel);
+      box-shadow: var(--shadow);
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(32px, 5vw, 50px);
+    }
+
+    .lead {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.75;
+      font-size: 17px;
+    }
+
+    .meta {
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    section {
+      margin-top: 28px;
+      padding-top: 24px;
+      border-top: 1px solid var(--line);
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 22px;
+    }
+
+    p,
+    li {
+      color: var(--muted);
+      line-height: 1.75;
+    }
+
+    ul {
+      margin: 12px 0 0;
+      padding-left: 18px;
+    }
+
+    .cta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 28px;
+    }
+
+    .cta a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 18px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(103, 212, 255, 0.08);
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    @media (max-width: 640px) {
+      .shell {
+        width: min(100% - 24px, 920px);
+        padding-top: 24px;
+      }
+
+      .panel {
+        padding: 22px;
+        border-radius: 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <div class="topbar"><a href="./index.html">← Armoni belge merkezine dön</a></div>
+
+    <article class="panel">
+      <h1>Armoni Hizmet Koşulları</h1>
+      <p class="lead">
+        Bu Hizmet Koşulları, Armoni adlı Discord botunun kullanımını düzenler. Armoni'yi bir sunucuya ekleyerek, yapılandırarak
+        veya kullanarak aşağıdaki şartları kabul etmiş olursunuz.
+      </p>
+      <div class="meta">Son güncelleme: 17 Mart 2026</div>
+
+      <section>
+        <h2>1. Hizmetin Kapsamı</h2>
+        <p>
+          Armoni, Discord sunucularında özel ses odaları oluşturmak, oda sahipliğini yönetmek, erişim kontrolü sağlamak,
+          panel tabanlı oda işlemlerini kolaylaştırmak ve ilgili yönetim kayıtlarını tutmak amacıyla geliştirilmiş bir bottur.
+        </p>
+      </section>
+
+      <section>
+        <h2>2. Kabul ve Yetki</h2>
+        <ul>
+          <li>Armoni'yi bir sunucuya ekleyen veya yapılandıran kişiler, bunu yapmaya yetkili olduklarını kabul eder.</li>
+          <li>Botun kullanımı sırasında Discord'un Hizmet Şartları ve Topluluk Kuralları ihlal edilemez.</li>
+          <li>Sunucu yöneticileri, bot ayarları ve kullanımından kendi sunucuları özelinde sorumludur.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>3. Kabul Edilmeyen Kullanımlar</h2>
+        <ul>
+          <li>Botu kötüye kullanmak, sistemi bozmak, aşırı yük bindirmek veya yetkisiz erişim elde etmeye çalışmak yasaktır.</li>
+          <li>Armoni, yasa dışı, zararlı, rahatsız edici veya Discord kurallarına aykırı faaliyetler için kullanılamaz.</li>
+          <li>Botun güvenlik, yetki veya sahiplik akışlarını yanıltmaya yönelik manipülasyonlar yasaktır.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>4. Hizmetin Sürekliliği</h2>
+        <ul>
+          <li>Armoni sürekli, kesintisiz veya hatasız çalışma garantisi vermez.</li>
+          <li>Özellikler önceden bildirim yapılmaksızın güncellenebilir, değiştirilebilir veya kaldırılabilir.</li>
+          <li>Gerekli görülen durumlarda belirli sunuculara veya kullanımlara erişim sınırlandırılabilir.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>5. Veri ve Kayıt İşleme</h2>
+        <p>
+          Armoni, hizmeti çalıştırmak için Discord üzerinden sağlanan bazı teknik verileri işler. Bu işlemenin kapsamı ve detayları
+          <a href="./privacy.html">Gizlilik Politikası</a> sayfasında açıklanır.
+        </p>
+      </section>
+
+      <section>
+        <h2>6. Sorumluluk Sınırı</h2>
+        <ul>
+          <li>Bot kullanımından doğan dolaylı, arızi veya sonuçsal zararlardan Armoni sorumlu tutulamaz.</li>
+          <li>Sunucu yapılandırmaları, rol izinleri ve kanal yetkileri sunucu yöneticilerinin sorumluluğundadır.</li>
+          <li>Discord tarafındaki değişiklikler, API sınırlamaları veya üçüncü taraf hizmet sorunları Armoni'nin sorumluluğunda değildir.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>7. Hizmetin Sonlandırılması</h2>
+        <p>
+          Armoni, kötüye kullanım, güvenlik riski veya politika ihlali şüphesi halinde hizmeti sınırlandırma veya ilgili sunucuda
+          kullanımı durdurma hakkını saklı tutar.
+        </p>
+      </section>
+
+      <section>
+        <h2>8. Değişiklikler</h2>
+        <p>
+          Bu Hizmet Koşulları zaman zaman güncellenebilir. Güncel sürüm bu sayfada yayımlandığı anda yürürlüğe girer.
+        </p>
+      </section>
+
+      <section>
+        <h2>9. İletişim</h2>
+        <p>
+          Destek, geri bildirim veya hizmetle ilgili talepler için resmi destek sunucusu kullanılabilir:
+          <a href="https://discord.gg/qj9hRsgQcm" target="_blank" rel="noreferrer">discord.gg/qj9hRsgQcm</a>
+        </p>
+      </section>
+
+      <div class="cta">
+        <a href="./privacy.html">Gizlilik Politikası</a>
+        <a href="https://discord.com/oauth2/authorize?client_id=1482825824775442675&amp;permissions=7078540431720310&amp;integration_type=0&amp;scope=applications.commands+bot" target="_blank" rel="noreferrer">Botu Sunucuya Ekle</a>
+      </div>
+    </article>
+  </main>
+</body>
+</html>

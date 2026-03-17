@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Armoni | Gizlilik Politikası</title>
+  <meta name="description" content="Armoni Discord botu için resmi gizlilik politikası.">
+  <style>
+    :root {
+      --bg: #08111f;
+      --panel: rgba(13, 23, 39, 0.9);
+      --line: rgba(120, 160, 220, 0.16);
+      --text: #ebf3ff;
+      --muted: #9fb3d1;
+      --accent: #8be6ff;
+      --shadow: 0 24px 60px rgba(0, 0, 0, 0.34);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", "Trebuchet MS", ui-sans-serif, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top, rgba(57, 173, 255, 0.14), transparent 24%),
+        linear-gradient(180deg, #0b1424 0%, #08111f 100%);
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    .shell {
+      width: min(920px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 42px 0 64px;
+    }
+
+    .topbar {
+      margin-bottom: 18px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .topbar a {
+      text-decoration: none;
+    }
+
+    .panel {
+      padding: 32px;
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      background: var(--panel);
+      box-shadow: var(--shadow);
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(32px, 5vw, 50px);
+    }
+
+    .lead {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.75;
+      font-size: 17px;
+    }
+
+    .meta {
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    section {
+      margin-top: 28px;
+      padding-top: 24px;
+      border-top: 1px solid var(--line);
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 22px;
+    }
+
+    p,
+    li {
+      color: var(--muted);
+      line-height: 1.75;
+    }
+
+    ul {
+      margin: 12px 0 0;
+      padding-left: 18px;
+    }
+
+    .cta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 28px;
+    }
+
+    .cta a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 18px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(103, 212, 255, 0.08);
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    @media (max-width: 640px) {
+      .shell {
+        width: min(100% - 24px, 920px);
+        padding-top: 24px;
+      }
+
+      .panel {
+        padding: 22px;
+        border-radius: 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <div class="topbar"><a href="./index.html">← Armoni belge merkezine dön</a></div>
+
+    <article class="panel">
+      <h1>Armoni Gizlilik Politikası</h1>
+      <p class="lead">
+        Bu Gizlilik Politikası, Armoni'nin Discord üzerinde hangi verileri işlediğini, bu verileri neden kullandığını ve ne kadar süreyle saklayabildiğini açıklar.
+      </p>
+      <div class="meta">Son güncelleme: 17 Mart 2026</div>
+
+      <section>
+        <h2>1. Toplanabilen Veriler</h2>
+        <p>Armoni, yalnızca özel oda sistemini çalıştırmak için gerekli olan sınırlı verileri işler. Bunlar şunları içerebilir:</p>
+        <ul>
+          <li>Sunucu kimliği, kanal kimliği, rol kimliği ve kullanıcı kimliği gibi Discord teknik tanımlayıcıları</li>
+          <li>Sunucu ayarları, log kanalı ayarı ve bekleme süreleri gibi yapılandırma verileri</li>
+          <li>Özel oda şablonları, hedef kategori bilgisi, varsayılan limit ve bitrate ayarları</li>
+          <li>Aktif oda bilgileri: oda sahibi, oda adı, durum notu, kilit/gizlilik durumu, limit ve panel bilgileri</li>
+          <li>Oda erişim kayıtları: izin verilen veya engellenen kullanıcı kimlikleri</li>
+          <li>Odadaki varlık kayıtları: kullanıcıların odaya giriş ve son görülme zamanları</li>
+          <li>Yetki politikaları: belirli rollere tanımlanan özel oda yönetim yetkileri</li>
+          <li>Denetim kayıtları: işlemi yapan kullanıcı, hedef kullanıcı, işlem türü, sonuç ve zaman damgası</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>2. Toplanmayan Veriler</h2>
+        <ul>
+          <li>Armoni, şifre, ödeme bilgisi veya özel ödeme verileri toplamaz.</li>
+          <li>Armoni, genel sohbet mesaj içeriklerini reklam veya profil çıkarımı amacıyla toplamaz.</li>
+          <li>Armoni, verileri satmaz ve pazarlama amacıyla üçüncü taraflara aktarmaz.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>3. Verilerin Kullanım Amaçları</h2>
+        <ul>
+          <li>Özel ses odalarını oluşturmak ve yönetmek</li>
+          <li>Oda sahipliği, erişim ve moderasyon akışlarını yürütmek</li>
+          <li>Panel, kılavuz ve log mesajlarını göndermek</li>
+          <li>Hata tespiti, onarım, senkronizasyon ve güvenlik kontrolleri yapmak</li>
+          <li>Sunucu yöneticisinin belirlediği yapılandırmaları uygulamak</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>4. Saklama Süresi</h2>
+        <ul>
+          <li>Aktif oda ve erişim verileri, hizmetin çalışması için gerekli olduğu sürece saklanır.</li>
+          <li>Denetim kayıtları, sunucu yöneticisinin belirlediği saklama süresine göre tutulabilir.</li>
+          <li>Bot sunucudan kaldırıldığında veya ilgili kayıtlar artık gerekli olmadığında temizleme işlemleri uygulanabilir.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>5. Veri Paylaşımı</h2>
+        <p>
+          Armoni, verileri hizmetin çalıştırılması dışında üçüncü taraflara satmaz veya ticari amaçla paylaşmaz.
+          Veriler, Discord platformu ve botun çalıştığı altyapı üzerinden teknik olarak işlenebilir.
+        </p>
+      </section>
+
+      <section>
+        <h2>6. Güvenlik</h2>
+        <p>
+          Veriler, hizmetin amacına uygun şekilde ve makul teknik önlemlerle işlenmeye çalışılır. Bununla birlikte, internet üzerinden yapılan
+          hiçbir veri işleme yöntemi tamamen risksiz değildir.
+        </p>
+      </section>
+
+      <section>
+        <h2>7. Veri Talepleri ve İletişim</h2>
+        <p>
+          Veri silme, bilgi talebi veya gizlilikle ilgili konular için resmi destek sunucusu üzerinden iletişime geçebilirsiniz:
+          <a href="https://discord.gg/qj9hRsgQcm" target="_blank" rel="noreferrer">discord.gg/qj9hRsgQcm</a>
+        </p>
+      </section>
+
+      <section>
+        <h2>8. Değişiklikler</h2>
+        <p>
+          Bu politika zaman zaman güncellenebilir. Güncel sürüm bu sayfada yayımlandığı anda yürürlüğe girer.
+        </p>
+      </section>
+
+      <div class="cta">
+        <a href="./terms.html">Hizmet Koşulları</a>
+        <a href="https://discord.com/oauth2/authorize?client_id=1482825824775442675&amp;permissions=7078540431720310&amp;integration_type=0&amp;scope=applications.commands+bot" target="_blank" rel="noreferrer">Botu Sunucuya Ekle</a>
+      </div>
+    </article>
+  </main>
+</body>
+</html>
